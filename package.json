@@ -1,0 +1,13 @@
+{
+  "name": "pw-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc tests/example.spec.ts --noEmit"
+  },
+  "packageManager": "pnpm@9.14.2",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.4",
+    "typescript": "^5.7.2"
+  }
+}
